@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700&subset=latin-ext');
+
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.h1-test {
+	font-weight: 600;
+}
+
+/* NAVIGATION */
+
+.main-nav {
+	float: right;
+	position: relative;
+}
+
+/* BLOG-INDEX */
+
+.blog-index-header {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	position: relative;
+	min-width: 100%;
+}
+
+.blog-index-header h1{
+	font-size: 3.5em;
+	color: #000;
+}
+
+.logo {
+	color: #ffb74d;
+	font-size: 1.2em;
+}
+
+/* ALL-BLOG-POSTS */
+
+.all-posts {
+	margin-top: 30px;
+}
+
+.all-posts h1 {
+	margin-bottom: 50px;
+}
+
+.blog-post {
+	border-bottom: 1px solid rgba(190, 100, 75, 0.5);
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+/* ADD-BLOG-POST */
+
+#blog-post-title {
+	text-align: center;
+	margin-bottom: 10px;
+	font-size: 25px;
+}
+
+/* USERS-LIST */
+
+.users-table th,
+.users-table td {
+	padding: 10px;
+}
+
+/* USER-REGISTER */
+
+.registration-heading {
+	margin-bottom: 30px;
+}
+
+.validation {
+	padding-top: 20px;
+}
+
+.validation .bg-danger,
+.validation .bg-primary {
+	padding: 10px;
+	border-radius: 5px;
+}
+
