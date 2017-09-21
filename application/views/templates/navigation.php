@@ -1,8 +1,16 @@
 <div class="container">
 	<div class="row">
 		<nav class="navbar navbar-fixed-top container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>                        
+				</button>
+				<a class="navbar-brand" href="<?= base_url() ?>">Šta da gledam</a>
+			</div>
+			<div id="myNavbar" class="collapse navbar-collapse">
 			<ul class="nav navbar-nav ">
-				<li><a href="<?= base_url() ?>">Početna</a></li>
 				<li><a href="<?= base_url() ?>blog/posts">Svi postovi</a></li>
 			</ul>
 			<ul class="nav navbar-nav navbar-right">	
@@ -26,6 +34,7 @@
 				</li>	
 			<?php endif ?>
     		</ul>
+    		</div>
 		</nav>
 	</div>
 <!-- Modal -->
